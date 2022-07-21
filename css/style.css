@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(224, 193, 193);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: auto;
+}
+
+header {
+  background-color: rgb(140, 144, 144);
+  font-family: 'Suez One', serif;
+  margin: 0px 0px 30px 0px;
+  height: 100px;
+  /*text-align: center;*/
+  /*margin-bottom: 30px;*/
+  
+}
+header nav {
+  width: 960px;
+  margin: auto; 
+  /* display: flex; */
+  /* text-align: left; */
+  
+}
+
+nav img {
+  margin-top: 15px;
+  float: left;
+}
+
+nav ul {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+main {
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 30px auto;
+}
+
+footer {
+  background-color: rgb(140, 144, 144);
+  height: 50px;
+}
+
+/* li {
+  display: inline;
+  letter-spacing: 10px; 
+}  */check
