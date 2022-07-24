@@ -40,7 +40,7 @@ article > h2 {
   margin: 10px;
 }
 article > p {
-  margin: 10px;
+  margin: 10px; 
 }
 article > div { 
   background-color: blue;
@@ -50,9 +50,30 @@ article > div {
 }
 
 p {
-  overflow: scroll;
-  width: 350px;
-  height:350px;
 
+  overflow: scroll;
+  overflow-wrap: break-word;
+  width: 420px;
+  height: 370px;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
+button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 350ms;
+  margin-left: 520px;
+  margin-top: -100px;
+  margin-bottom: 30px;
+}
+
+button:hover {
+  background-color: rgb(140, 144, 144);
+  color: white;
+}
